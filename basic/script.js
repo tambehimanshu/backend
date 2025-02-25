@@ -11,4 +11,6 @@ var wr = arr.filter(function(val){
 var fd = arr.find(function(val){
     if(val == 3) return val;
 })
-console.log(fd);
+
+var iof = arr.indexOf(3);
+console.log(iof);
