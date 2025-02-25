@@ -8,4 +8,7 @@ var wr = arr.filter(function(val){
     }
     else return false;
 })
-console.log(wr);
+var fd = arr.find(function(val){
+    if(val == 3) return val;
+})
+console.log(fd);
