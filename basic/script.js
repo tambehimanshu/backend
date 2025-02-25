@@ -26,5 +26,13 @@ function abcd(){
 // console.log(obj.name);
 // console.log(obj['age']);
 
+async function hello() {
+    var blob = await fetch('https://randomuser.me/api/');
+    var ans = blob.json();
+
+    console.log(ans.results[0].name);
+    
+}
+hello()
 var as=abcd();
 console.log(as);
