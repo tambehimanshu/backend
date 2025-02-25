@@ -12,5 +12,13 @@ var fd = arr.find(function(val){
     if(val == 3) return val;
 })
 
+// objects in js
+
+var obj ={
+    name:'himanshu',
+    age:20,
+}
+
 var iof = arr.indexOf(3);
-console.log(iof);
+console.log(obj.name);
+console.log(obj['age']);
