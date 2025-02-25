@@ -19,6 +19,12 @@ var obj ={
     age:20,
 }
 
-var iof = arr.indexOf(3);
-console.log(obj.name);
-console.log(obj['age']);
+function abcd(){
+    return 12;
+}
+// var iof = arr.indexOf(3);
+// console.log(obj.name);
+// console.log(obj['age']);
+
+var as=abcd();
+console.log(as);
